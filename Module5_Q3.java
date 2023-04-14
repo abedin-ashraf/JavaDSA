@@ -8,16 +8,16 @@ import java.util.Scanner;
 
 public class Module5_Q3 {
     public static void main(String[] args) {
-        // Scanner input = new Scanner(System.in);
-        // float pencilPrice = input.nextFloat();
-        // float penPrice = input.nextFloat();
-        // float eraserPrice = input.nextFloat();
+        Scanner input = new Scanner(System.in);
+        float pencilPrice = input.nextFloat();
+        float penPrice = input.nextFloat();
+        float eraserPrice = input.nextFloat();
 
-        // float totalPrice = pencilPrice + penPrice + eraserPrice;
-        // System.out.println("Total cost is " + totalPrice);
+        float totalPrice = pencilPrice + penPrice + eraserPrice;
+        System.out.println("Total cost is " + totalPrice);
 
-        // double totalPriceWithGST = totalPrice + (totalPrice * .18);
-        // System.out.println("Total Price with GST is " + totalPriceWithGST);
+        double totalPriceWithGST = totalPrice + (totalPrice * .18);
+        System.out.println("Total Price with GST is " + totalPriceWithGST);
 
         int $ = 10;
         System.out.println($);
